@@ -53,7 +53,7 @@ const Service = () => {
                 setCurrentservice(service[index]);
               }, [index]);
   return (
-   <Stack direction={['column-reverse','row']} alignItems={'center'} my={12} mx={2}>
+   <Stack direction={['column-reverse','row']} backgroundColor={'ButtonFace'} p={1} alignItems={'center'} my={12} mx={2}>
      <VStack w={'full'} alignItems={'center'}>
 
      <Flex flexWrap={'wrap'} justifyContent={'center'} gap={2} >

@@ -14,14 +14,14 @@ const LifeAt = () => {
    <VStack spacing={4} padding={8}  width="100%"  >
     <Heading w={'full'} textAlign={'center'} padding={4} bgColor={'#fdba74'} rounded={'lg'} letterSpacing={'widest'}>LIFE AT S.L.S</Heading>
     <HStack w={'100%'}  justifyContent={'center'}  flexWrap={'wrap'} >
-    <Image src={c1} height={[24,64]} width={[24,64]} objectFit={'cover'} shadow={'xl'} className='homegal'  rounded={'lg'}/>
-    <Image src={c2} height={[24,64]} width={[24,64]} objectFit={'cover'} shadow={'xl'} className='homegal' rounded={'lg'}/>
-    <Image src={c3} height={[24,64]} width={[24,64]} objectFit={'cover'} shadow={'xl'} className='homegal'  rounded={'lg'}/>
-    <Image src={c4} height={[24,64]} width={[24,64]} objectFit={'cover'} shadow={'xl'} className='homegal' rounded={'lg'}/>
-    <Image src={c5} height={[24,64]} width={[24,64]} objectFit={'cover'} shadow={'xl'} className='homegal' rounded={'lg'}/>
-    <Image src={c6} height={[24,64]} width={[24,64]} objectFit={'cover'} shadow={'xl'} className='homegal' rounded={'lg'}/>
-    <Image src={c7} height={[24,64]} width={[24,64]} objectFit={'cover'} shadow={'xl'} className='homegal' rounded={'lg'}/>
-    <Image src={c8} height={[24,64]} width={[24,64]} objectFit={'cover'} shadow={'xl'} className='homegal' rounded={'lg'}/>
+    <Image src={c1} height={[32,64]} width={[32,64]} objectFit={'cover'} shadow={'xl'} className='homegal'  rounded={'lg'}/>
+    <Image src={c2} height={[32,64]} width={[32,64]} objectFit={'cover'} shadow={'xl'} className='homegal' rounded={'lg'}/>
+    <Image src={c3} height={[32,64]} width={[32,64]} objectFit={'cover'} shadow={'xl'} className='homegal'  rounded={'lg'}/>
+    <Image src={c4} height={[32,64]} width={[32,64]} objectFit={'cover'} shadow={'xl'} className='homegal' rounded={'lg'}/>
+    <Image src={c5} height={[32,64]} width={[32,64]} objectFit={'cover'} shadow={'xl'} className='homegal' rounded={'lg'}/>
+    <Image src={c6} height={[32,64]} width={[32,64]} objectFit={'cover'} shadow={'xl'} className='homegal' rounded={'lg'}/>
+    <Image src={c7} height={[32,64]} width={[32,64]} objectFit={'cover'} shadow={'xl'} className='homegal' rounded={'lg'}/>
+    <Image src={c8} height={[32,64]} width={[32,64]} objectFit={'cover'} shadow={'xl'} className='homegal' rounded={'lg'}/>
     
 
     </HStack>
