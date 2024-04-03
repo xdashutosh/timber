@@ -1,14 +1,11 @@
 import { Button, Card, CardBody, CardFooter, Heading, Image, Stack, Text } from '@chakra-ui/react'
 import React from 'react'
 import { useState, useEffect } from 'react';
-import c1 from '../images/c1.jpeg'
-import c3 from '../images/c3.jpeg'
-import c4 from '../images/c4.jpeg'
-import c6 from '../images/c6.jpeg'
+
 const Hero = () => {
 
     const images = [
-c1,c3,c4,c6
+'https://mpghardware.com/img/s4.jpg','https://mpghardware.com/img/s1.jpg','https://mpghardware.com/img/s3.jpg','https://img.staticmb.com/mbcontent/images/crop/uploads/2023/1/kitchen-design-ideas_0_1200.jpg'
       ];
     
       const [currentImage, setCurrentImage] = useState(images[0]);
@@ -37,7 +34,7 @@ c1,c3,c4,c6
     shadow={'lg'}
     h={['100%','100%']}
     boxSizing='border-box'
-    mt={['20vh','25vh']}
+    mt={['30vh','25vh']}
 
     
     >
