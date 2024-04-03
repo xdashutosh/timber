@@ -1,7 +1,29 @@
-import { Card, CardBody, Flex, HStack, Heading,  Stack, Text, VStack } from '@chakra-ui/react'
+import { Box, Card, CardBody, Flex, HStack, Heading,  Stack, Text, VStack } from '@chakra-ui/react'
 import React, { useEffect, useState } from 'react'
-import { FaBookOpen, FaLightbulb } from 'react-icons/fa'
-import { MdOutlineSportsHandball } from "react-icons/md";
+
+
+
+const ProductCard = ({img,title})=>{
+  return(
+    <Card  maxW='xs' borderBottom={'2px solid orange'}>
+    <CardBody p={16} brightness={'60%'} backgroundImage={img} >
+      <Stack mt='6' spacing='3' alignItems={'center'}>
+       
+      <Box
+          p={4}
+          position="relative"
+          zIndex={1}
+          textColor={'white'}
+          bg="rgba(0,0,0,0.5)" /* Adjust brightness here */
+        >
+          <Text  fontSize="xl" mb={2}>{title}</Text>
+          <Text borderBottom={'1px'}>See Product 👉</Text>
+        </Box>
+      </Stack>
+    </CardBody>
+  </Card>
+  )
+}
 
 const Service = () => {
 
@@ -37,71 +59,17 @@ const Service = () => {
      <Flex flexWrap={'wrap'} justifyContent={'center'} gap={2} >
 
        
-        <Card maxW='xs' borderBottom={'2px solid orange'}>
-  <CardBody>
-    <Stack mt='6' spacing='3' alignItems={'center'}>
-      <FaBookOpen size={48} color='orange'/>
-      <Text textAlign={'center'}>
-Books expand minds, evoke emotions, and offer endless adventures within pages.
-      </Text>
-    </Stack>
-  </CardBody>
-</Card>
 
-<Card maxW='xs' borderBottom={'2px solid orange'}>
-  <CardBody>
-    <Stack mt='6' spacing='3' alignItems={'center'}>
-      <FaBookOpen size={48} color='orange'/>
-      <Text textAlign={'center'}>
-Books expand minds, evoke emotions, and offer endless adventures within pages.
-      </Text>
-    </Stack>
-  </CardBody>
-</Card>
+       <ProductCard img={'https://uniquetimberplywood.com/wp-content/themes/UniqueTimber/assets/images/products/product-category-03.png'} title={'Laminates'} />
 
-<Card maxW='xs' borderBottom={'2px solid orange'}>
-  <CardBody>
-    <Stack mt='6' spacing='3' alignItems={'center'}>
-      <FaBookOpen size={48} color='orange'/>
-      <Text textAlign={'center'}>
-Books expand minds, evoke emotions, and offer endless adventures within pages.
-      </Text>
-    </Stack>
-  </CardBody>
-</Card>
+       <ProductCard img={'https://uniquetimberplywood.com/wp-content/themes/UniqueTimber/assets/images/products/product-category-04.png'} title={'Mdf Board'} />
+       
+       <ProductCard img={'https://uniquetimberplywood.com/wp-content/themes/UniqueTimber/assets/images/products/product-category-02.png'} title={'Plywood/Blockboard'} />
+      
+       <ProductCard img={'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW6WzvuUO_MxYDxUO8ylak7Gsq7ZbeLEYlQdFpQJYz0w&s'} title={'Packaging Plywood'} />
 
-<Card maxW='xs' borderBottom={'2px solid orange'}>
-  <CardBody>
-    <Stack mt='6' spacing='3' alignItems={'center'}>
-      <FaBookOpen size={48} color='orange'/>
-      <Text textAlign={'center'}>
-Books expand minds, evoke emotions, and offer endless adventures within pages.
-      </Text>
-    </Stack>
-  </CardBody>
-</Card>
+       
 
-<Card maxW='xs' borderBottom={'2px solid orange'}>
-  <CardBody>
-    <Stack mt='6' spacing='3' alignItems={'center'}>
-      <FaBookOpen size={48} color='orange'/>
-      <Text textAlign={'center'}>
-Books expand minds, evoke emotions, and offer endless adventures within pages.
-      </Text>
-    </Stack>
-  </CardBody>
-</Card>
-
-<Card maxW='xs' borderBottom={'2px solid orange'}>
-  <CardBody>
-    <Stack mt='6' spacing='3' alignItems={'center'}>
-      <FaBookOpen size={48} color='orange'/>
-      <Text textAlign={'center'}>
-Books expand minds, evoke emotions, and offer endless adventures within pages.
-      </Text>
-    </Stack>
-  </CardBody>
-</Card>
 
      </Flex>
      </VStack>
