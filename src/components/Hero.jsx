@@ -1,6 +1,7 @@
-import { Button, Card, CardBody, CardFooter, Flex, Heading, Image, Stack, Tag, Text } from '@chakra-ui/react'
+import { Button, Card, CardBody, CardFooter, Flex, HStack, Heading, Image, Stack, Tag, Text, VStack } from '@chakra-ui/react'
 import React from 'react'
 import { useState, useEffect } from 'react';
+import { FaPhone, FaUser } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 
 const Hero = () => {
@@ -94,11 +95,24 @@ const Hero = () => {
   </aside>
   
       <CardFooter>
+        <VStack>
+
         <Button variant='solid' colorScheme='orange'>
           <Link to='/contact'>
           ENQUIRE NOW
           </Link>
         </Button>
+
+       <HStack>
+        <FaUser/>
+       <Text fontWeight={'bolder'}>NEERAJ GARG, SUBH GARG</Text>
+        </HStack>
+        <HStack>
+          <FaPhone/>
+        <Text fontWeight={'bolder'}>8826363310, 8800464310</Text>
+          </HStack> 
+      
+        </VStack>
       </CardFooter>
     </Stack>
   </Card>

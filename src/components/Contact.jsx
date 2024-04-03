@@ -21,7 +21,7 @@ const [msg,setmsg] = useState(null);
  
   const  handleSubmit = () => {
     // Replace '123456789' with the recipient's phone number
-    const phoneNumber = '7037580056';
+    const phoneNumber = '8800464310';
 
     // Replace 'Hello, how can I help you?' with your desired message
     
@@ -49,9 +49,10 @@ const encodedMessage = encodeURIComponent(senddata);
   return (
     <VStack w={'full'} m={4} alignItems={'center'} bgImage={''} mt={['25vh','20vh']}>
         <VStack my={4}>
-        <Heading letterSpacing={'widest'}>CONTACT FORM</Heading>
-        <Text fontSize={'xl'} w={'50%'} textAlign="center">For addmission, Fee, PTM or other enquiry,
-please contact us by email, phone or by using the contact form below.</Text>
+        <Heading letterSpacing={'widest'}>Contact Shree Ram TIMBER & Paints</Heading>
+        <Text fontSize={'xl'} w={'50%'} textAlign="center">Incepted in the year 2012, Shree Ram Timber & Paints is a leading Wholesale Trader of Wooden Plywood, Teak Wood, Plywood Boards, Wooden Flush Doors, etc. We work with a customer’s approach and focus on satisfying our clients by providing them with effective solutions. Our superior quality products are made with quality material. With our advanced production techniques, we meet the ever increasing needs of clients in this industry.
+
+</Text>
         </VStack>
 <VStack alignItems={'start'}> 
     <Stack direction={['column','row']}>

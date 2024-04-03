@@ -18,12 +18,12 @@ const ChatButton = () => {
   
   const  handleClick = () => {
     // Replace '123456789' with the recipient's phone number
-    const phoneNumber = '7409873103';
+    const phoneNumber = '8800464310';
 
     // Replace 'Hello, how can I help you?' with your desired message
     
    
-const message = 'Hello, I want addmission details!';
+const message = 'Message from ShreeRam Timber&Paints website';
 
 // Construct the WhatsApp API URL
 

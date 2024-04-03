@@ -1,24 +1,31 @@
 import {Image, Text, VStack } from '@chakra-ui/react'
 import React from 'react'
-import c1 from '../images/c1.jpeg'
 
 
 const Aboutus = () => {
   return (
    <VStack mt={['20vh','25vh']} >
     <VStack>
-        <Image src={c1} height={['40vh','60vh']} w={'90vw'}/>
+        <Image src={'https://cdnl.iconscout.com/lottie/premium/thumb/carpenter-6540742-5540746.gif'} height={['40vh','60vh']} w={'90vw'}/>
     </VStack>
     <VStack p={8} >
     <Image src={'https://gifdb.com/images/high/the-more-you-know-book-z9hnav8reuapmd81.gif'} h={28} w={28}/>
 
-<Text fontSize={'xl'} textAlign={'center'}>SLS Memorial Public School is an esteemed English medium institution committed to nurturing young minds with excellence and integrity. Situated in a serene environment, our school provides a conducive atmosphere for holistic development. With a rich heritage of academic excellence and a progressive approach to education, we empower students to excel in academics, sports, arts, and leadership.
+<Text fontSize={'xl'} textAlign={'center'}>
+Shree Ram Timber and Paints, established in 2012, stands as a cornerstone of quality and reliability in the heart of Habibpur, Greater Noida. With nearly a decade of dedicated service, we have cultivated a reputation for excellence in providing premium timber and paint solutions to our valued clientele.
 
-Our dedicated faculty members foster a culture of innovation and critical thinking, encouraging students to explore their potential and pursue their passions. We offer a comprehensive curriculum that integrates modern pedagogy with traditional values, preparing students to navigate the complexities of the modern world with confidence and resilience.
+Nestled in the vibrant community of Habibpur, our establishment serves as a beacon of craftsmanship and trustworthiness. Since our inception, we have been committed to offering a diverse range of timber products, including plywood, blockboard, and shuttering plywood, meeting the demands of various construction and interior design projects.
 
-At SLS Memorial Public School, we prioritize individualized attention and personalized learning experiences, ensuring that each student receives the support they need to thrive. We promote inclusivity, diversity, and cultural understanding, fostering a sense of community and belonging among our students.
+In addition to our comprehensive timber selection, we take pride in our expansive array of premium paints, catering to both residential and commercial needs. Whether it's vibrant hues for interior spaces or durable coatings for exterior applications, we ensure top-notch quality and durability in every product we offer.
 
-With state-of-the-art facilities and a commitment to continuous improvement, SLS Memorial Public School is dedicated to shaping responsible global citizens who will make a positive impact on society. Join us on this journey of excellence and discovery.</Text>
+At Shree Ram Timber and Paints, our mission goes beyond mere transactions; we strive to build lasting relationships with our customers, based on integrity and mutual respect. Our knowledgeable team is dedicated to providing expert advice and personalized service, guiding customers through their projects from start to finish.
+
+As we look towards the future, our commitment to excellence remains unwavering. We are grateful for the trust placed in us by the community of Habibpur and beyond, and we are excited to continue serving as your premier destination for timber and paint solutions for many years to come.
+
+
+
+
+</Text>
     </VStack>
    </VStack>
   )
