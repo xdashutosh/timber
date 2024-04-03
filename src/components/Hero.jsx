@@ -1,6 +1,7 @@
-import { Button, Card, CardBody, CardFooter, Heading, Image, Stack, Text } from '@chakra-ui/react'
+import { Button, Card, CardBody, CardFooter, Flex, Heading, Image, Stack, Tag, Text } from '@chakra-ui/react'
 import React from 'react'
 import { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
 
@@ -56,20 +57,47 @@ const Hero = () => {
 
         <Text py='4'>
         <Text display={'inline'} textColor={'orange'}><b>ShreeRam Timbers </b>&nbsp;</Text> 
-An english medium school, catering to students, provides a holistic education framework aligned with the  Education curriculum. Emphasizing academic excellence, it fosters intellectual, social, and emotional growth. With a learner-centric approach, the school offers a diverse range of subjects and co-curricular activities to ensure a well-rounded development. Qualified faculty members employ innovative teaching methodologies to facilitate comprehensive learning experiences. The school's supportive environment encourages curiosity, critical thinking, and ethical values, nurturing students to become responsible global citizens.
+        Shree Ram Timbers and Paints offers premium quality timber products and a vast selection of paints for your home and commercial needs. With expert advice, reliable service, and competitive prices, we're your trusted partner for all your construction and renovation projects. Experience excellence with us.
         </Text>
-        <Heading size={'sm'}>
-        Clean Enviroment ,Healthy Food, Simple Registration.
-        </Heading>
-        <Heading color={'gray'} size={'xs'} mt={4} w={'30%'}>
-        Near Dholra Bus Stand, Budina kalan, Muzaffarnagar
-        </Heading>
+        <Flex wrap={'wrap'} gap={4}>
+        <Tag size="md" variant="subtle" colorScheme="gray">
+        Laminates
+    </Tag>
+
+    <Tag size="md" variant="subtle" colorScheme="gray">
+    Mdf board
+    </Tag>
+      
+    <Tag size="md" variant="subtle" colorScheme="gray">
+        Plywood/Blockboard
+      </Tag>
+      <Tag size="md" variant="subtle" colorScheme="gray">
+        Shuttering Plywood
+      </Tag>
+      <Tag size="md" variant="subtle" colorScheme="gray">
+        Timber Wood
+      </Tag>
+      <Tag size="md" variant="subtle" colorScheme="gray">
+        Packaging Plywood
+      </Tag>
+      <Tag size="md" variant="subtle" colorScheme="gray">
+        Furniture Hardware
+      </Tag>
+
+        </Flex>
+        <Button variant={'outline'} mt={4} >
+          <a href='https://maps.app.goo.gl/y7dvjCJmA3i7MgXc9' target="_blank">
+          📍 EchoTech3, Habibpur, Greater Noida(201306)
+          </a>
+        </Button>
       </CardBody>
   </aside>
   
       <CardFooter>
         <Button variant='solid' colorScheme='orange'>
-          Addmission Now
+          <Link to='/contact'>
+          ENQUIRE NOW
+          </Link>
         </Button>
       </CardFooter>
     </Stack>

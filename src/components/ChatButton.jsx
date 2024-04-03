@@ -8,7 +8,7 @@ const ChatButton = () => {
     right: "20px",
     zIndex: "1000", // Ensure it's above other elements
     cursor: "pointer",
-    backgroundColor: "#007bff",
+    backgroundColor: "green",
     color: "white",
     borderRadius: "50%",
     padding: "15px",
@@ -39,7 +39,7 @@ const encodedMessage = encodeURIComponent(message);
 
   return (
     <div style={style} onClick={handleClick}>
-      <FaWhatsapp />
+      <FaWhatsapp size={28} />
     </div>
   );
 };
