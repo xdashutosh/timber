@@ -48,9 +48,9 @@ const encodedMessage = encodeURIComponent(senddata);
 
   return (
     <VStack w={'full'} m={4} alignItems={'center'} bgImage={''} mt={['25vh','20vh']}>
-        <VStack my={4}>
+        <VStack my={4} justifyContent={'center'} alignItems={'center'} >
         <Heading letterSpacing={'widest'}>Contact Shree Ram TIMBER & Paints</Heading>
-        <Text fontSize={'xl'} w={'50%'} textAlign="center">Incepted in the year 2012, Shree Ram Timber & Paints is a leading Wholesale Trader of Wooden Plywood, Teak Wood, Plywood Boards, Wooden Flush Doors, etc. We work with a customer’s approach and focus on satisfying our clients by providing them with effective solutions. Our superior quality products are made with quality material. With our advanced production techniques, we meet the ever increasing needs of clients in this industry.
+        <Text fontSize={'xl'} w={['100%','50%']} textAlign="center">Incepted in the year 2012, Shree Ram Timber & Paints is a leading Wholesale Trader of Wooden Plywood, Teak Wood, Plywood Boards, Wooden Flush Doors, etc. We work with a customer’s approach and focus on satisfying our clients by providing them with effective solutions. Our superior quality products are made with quality material. With our advanced production techniques, we meet the ever increasing needs of clients in this industry.
 
 </Text>
         </VStack>

@@ -11,7 +11,7 @@ import c8 from '../images/c8.jpeg'
 
 const Gallary = () => {
   return (
-   <VStack spacing={8} padding={8}   width="100%"  pt={['20vh','25vh']} >
+   <VStack spacing={8} padding={8}   width="100%"  pt={['30vh','25vh']} >
     <Heading w={'full'} textAlign={'center'} padding={4}  letterSpacing={'widest'}>Product Gallery</Heading>
     <HStack w={'100%'}  justifyContent={'center'}  flexWrap={'wrap'} >
     <Image src={c1} height={[32,64]} width={[32,64]} objectFit={'cover'} shadow={'xl'} className='homegal'  rounded={'lg'}/>

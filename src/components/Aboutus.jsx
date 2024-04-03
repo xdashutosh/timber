@@ -4,9 +4,9 @@ import React from 'react'
 
 const Aboutus = () => {
   return (
-   <VStack mt={['20vh','25vh']} >
+   <VStack mt={['30vh','25vh']} >
     <VStack>
-        <Image src={'https://cdnl.iconscout.com/lottie/premium/thumb/carpenter-6540742-5540746.gif'} height={['40vh','60vh']} w={'90vw'}/>
+        <Image src={'https://cdnl.iconscout.com/lottie/premium/thumb/carpenter-6540742-5540746.gif'} height={['40vh','60vh']} w={'92vw'}/>
     </VStack>
     <VStack p={8} >
     <Image src={'https://gifdb.com/images/high/the-more-you-know-book-z9hnav8reuapmd81.gif'} h={28} w={28}/>
