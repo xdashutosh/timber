@@ -87,7 +87,7 @@ const Hero = () => {
         </Flex>
         <Button variant={'outline'} mt={4} >
           <a href='https://maps.app.goo.gl/y7dvjCJmA3i7MgXc9' target="_blank">
-          📍 EchoTech3, Habibpur, Greater Noida(201306)
+          📍 Echotech3, Habibpur, Greater Noida
           </a>
         </Button>
       </CardBody>

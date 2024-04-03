@@ -1,4 +1,4 @@
-import { Card, CardBody, HStack, Heading,  Stack, Text, VStack } from '@chakra-ui/react'
+import { Card, CardBody, Flex, HStack, Heading,  Stack, Text, VStack } from '@chakra-ui/react'
 import React, { useEffect, useState } from 'react'
 import { FaBookOpen, FaLightbulb } from 'react-icons/fa'
 import { MdOutlineSportsHandball } from "react-icons/md";
@@ -6,7 +6,14 @@ import { MdOutlineSportsHandball } from "react-icons/md";
 const Service = () => {
 
     const service = [
-        "Quailty Education","Exploring Labs","Compititive Sports" 
+      "Laminates",
+      "Mdf board",
+      "Plywood/Blockboard",
+      "Shuttering Plywood",
+      "Timber Wood",
+      "Packaging Plywood",
+      "Furniture Hardware"
+        
               ];
             
               const [currentservice, setCurrentservice] = useState(service[0]);
@@ -24,9 +31,12 @@ const Service = () => {
                 setCurrentservice(service[index]);
               }, [index]);
   return (
-   <Stack direction={['column-reverse','row']} alignItems={'center'} my={12} mx={8}>
-    <VStack w={'full'}>
-        <HStack>
+   <Stack direction={['column-reverse','row']} alignItems={'center'} my={12} mx={2}>
+     <VStack w={'full'} alignItems={'center'}>
+
+     <Flex flexWrap={'wrap'} justifyContent={'center'} gap={2} >
+
+       
         <Card maxW='xs' borderBottom={'2px solid orange'}>
   <CardBody>
     <Stack mt='6' spacing='3' alignItems={'center'}>
@@ -41,31 +51,65 @@ Books expand minds, evoke emotions, and offer endless adventures within pages.
 <Card maxW='xs' borderBottom={'2px solid orange'}>
   <CardBody>
     <Stack mt='6' spacing='3' alignItems={'center'}>
-      <FaLightbulb size={48} color='orange'/>
+      <FaBookOpen size={48} color='orange'/>
       <Text textAlign={'center'}>
-Ideas ignite innovation, shape perspectives, and propel human progress forward.
+Books expand minds, evoke emotions, and offer endless adventures within pages.
       </Text>
     </Stack>
   </CardBody>
 </Card>
 
-        </HStack>
-
-        <Card maxW='xs' borderBottom={'2px solid orange'}>
+<Card maxW='xs' borderBottom={'2px solid orange'}>
   <CardBody>
     <Stack mt='6' spacing='3' alignItems={'center'}>
-      <MdOutlineSportsHandball size={48} color='orange'/>
+      <FaBookOpen size={48} color='orange'/>
       <Text textAlign={'center'}>
-        
-Sports inspire teamwork, foster discipline, and celebrate human achievement and athleticism.
-
+Books expand minds, evoke emotions, and offer endless adventures within pages.
       </Text>
     </Stack>
   </CardBody>
 </Card>
-    </VStack>
+
+<Card maxW='xs' borderBottom={'2px solid orange'}>
+  <CardBody>
+    <Stack mt='6' spacing='3' alignItems={'center'}>
+      <FaBookOpen size={48} color='orange'/>
+      <Text textAlign={'center'}>
+Books expand minds, evoke emotions, and offer endless adventures within pages.
+      </Text>
+    </Stack>
+  </CardBody>
+</Card>
+
+<Card maxW='xs' borderBottom={'2px solid orange'}>
+  <CardBody>
+    <Stack mt='6' spacing='3' alignItems={'center'}>
+      <FaBookOpen size={48} color='orange'/>
+      <Text textAlign={'center'}>
+Books expand minds, evoke emotions, and offer endless adventures within pages.
+      </Text>
+    </Stack>
+  </CardBody>
+</Card>
+
+<Card maxW='xs' borderBottom={'2px solid orange'}>
+  <CardBody>
+    <Stack mt='6' spacing='3' alignItems={'center'}>
+      <FaBookOpen size={48} color='orange'/>
+      <Text textAlign={'center'}>
+Books expand minds, evoke emotions, and offer endless adventures within pages.
+      </Text>
+    </Stack>
+  </CardBody>
+</Card>
+
+     </Flex>
+     </VStack>
+      
+
+  
     <VStack justifycontent="center" w="full" h={'full'} alignItems="center"> 
-  <Heading fontSize={'lg'} textColor={'orange'}>We Provide?</Heading>
+  <Heading fontSize={'lg'} textColor={'orange'}>OUR PRODUCT CATEGORY</Heading>
   <Heading>{currentservice}</Heading>
     </VStack>
    </Stack>
