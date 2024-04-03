@@ -95,21 +95,21 @@ const Header = () => {
       </Flex>
       {/* Hamburger menu for mobile */}
       <Box mr={4} display={["flex", "none"]}>
-        <MdMenu size={28} onClick={onOpen} />
+        <MdMenu size={36} onClick={onOpen} />
       </Box>
 
       <Drawer isOpen={isOpen} placement="right" onClose={onClose}>
         <DrawerOverlay />
-        <DrawerContent>
-          <DrawerCloseButton />
+        <DrawerContent fontSize={'24'} textColor={'white'} style={{backgroundColor:'rgba(0,0,0,0.6)'}} >
+          <DrawerCloseButton fontSize={'24'} />
           <DrawerHeader>
-            <Image src={sls} h={16} w={16} />
+           <Heading textColor={'white'}>🆃🅸🅼🅱🅴🆁</Heading>
           </DrawerHeader>
 
           <DrawerBody>
             <VStack spacing={12} onClick={onClose}>
               <Link to="/">
-                <HStack mx={4} className="navlink">
+                <HStack mx={4}  className="navlink">
                   <FaHome /> <Text>Home</Text>
                 </HStack>{" "}
               </Link>
@@ -128,11 +128,7 @@ const Header = () => {
                   <FaPhone /> <Text>Contact Us</Text>
                 </HStack>{" "}
               </Link>
-              <Link to="/logindashboard">
-                <HStack mx={4} className="navlink">
-                  <FaLock color="orange" /> <Text>Portal Login</Text>
-                </HStack>{" "}
-              </Link>
+            
             </VStack>
           </DrawerBody>
         </DrawerContent>

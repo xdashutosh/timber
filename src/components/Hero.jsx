@@ -51,11 +51,11 @@ const Hero = () => {
   <aside>
       <CardBody>
         <Heading size={'lg'} className='heroHeading'>
-          S.L.S Memorial Public School
+          Shree Ram Timbers & Paints
           </Heading>
 
         <Text py='4'>
-        <Text display={'inline'} textColor={'orange'}><b>S.L.S</b>&nbsp;</Text> 
+        <Text display={'inline'} textColor={'orange'}><b>ShreeRam Timbers </b>&nbsp;</Text> 
 An english medium school, catering to students, provides a holistic education framework aligned with the  Education curriculum. Emphasizing academic excellence, it fosters intellectual, social, and emotional growth. With a learner-centric approach, the school offers a diverse range of subjects and co-curricular activities to ensure a well-rounded development. Qualified faculty members employ innovative teaching methodologies to facilitate comprehensive learning experiences. The school's supportive environment encourages curiosity, critical thinking, and ethical values, nurturing students to become responsible global citizens.
         </Text>
         <Heading size={'sm'}>
