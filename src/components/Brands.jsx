@@ -1,13 +1,6 @@
 import { Flex, HStack, Heading, Image, Stack, VStack } from '@chakra-ui/react'
 import React from 'react'
-import c1 from '../images/c1.jpeg'
-import c2 from '../images/c2.jpeg'
-import c3 from '../images/c3.jpeg'
-import c4 from '../images/c4.jpeg'
-import c5 from '../images/c5.jpeg'
-import c6 from '../images/c6.jpeg'
-import c7 from '../images/c7.jpeg'
-import c8 from '../images/c8.jpeg'
+
 
 const Brands = () => {
   return (

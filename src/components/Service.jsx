@@ -56,7 +56,7 @@ const Service = () => {
    <Stack direction={['column-reverse','row']} backgroundColor={'ButtonFace'} p={1} alignItems={'center'} my={12} mx={2}>
      <VStack w={'full'} alignItems={'center'}>
 
-     <Flex flexWrap={'wrap'} justifyContent={'center'} gap={2} >
+     <Flex flexWrap={['nowrap','wrap']} justifyContent={['flex-start','center']} overflowX={'scroll'} overflowY={'hidden'} gap={2} >
 
        
 
