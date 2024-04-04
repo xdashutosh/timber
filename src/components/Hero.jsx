@@ -53,12 +53,12 @@ const Hero = () => {
   <aside>
       <CardBody>
         <Heading size={'lg'} className='heroHeading'>
-          Shree Ram Timbers & Paints
+          Shri Ram Timbers & Paints
           </Heading>
 
         <Text py='4'>
-        <Text display={'inline'} textColor={'orange'}><b>ShreeRam Timbers </b>&nbsp;</Text> 
-        Shree Ram Timbers and Paints offers premium quality timber products and a vast selection of paints for your home and commercial needs. With expert advice, reliable service, and competitive prices, we're your trusted partner for all your construction and renovation projects. Experience excellence with us.
+        <Text display={'inline'} textColor={'orange'}><b>ShriRam Timbers </b>&nbsp;</Text> 
+        Shri Ram Timbers and Paints offers premium quality timber products and a vast selection of paints for your home and commercial needs. With expert advice, reliable service, and competitive prices, we're your trusted partner for all your construction and renovation projects. Experience excellence with us.
         </Text>
         <Flex wrap={'wrap'} gap={4}>
         <Tag size="md" variant="subtle" colorScheme="gray">

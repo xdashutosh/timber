@@ -6,11 +6,13 @@ import Makers from './Makers'
 import { Button } from '@chakra-ui/react'
 import ChatButton from './ChatButton'
 import Footer from './Footer'
+import Brands from './Brands'
 
 const Home = () => {
   return (
    <>
    <Hero/>
+   <Brands/>
    <Service/>
    <LifeAt/>
    <Makers/>

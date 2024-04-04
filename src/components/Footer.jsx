@@ -21,9 +21,9 @@ const Footer = () => {
 
       </VStack>
       <Stack direction={['column','row']} textColor={'white'} w={'full'} p={4} alignItems={'center'} justifyContent={'space-around'} backgroundImage={'https://img.freepik.com/premium-photo/black-wooden-texture-backgrounds-graphic-design-digital-art-parquet-wallpaper-soft-blur_41691-6280.jpg'}>
-     {/* <Heading p={4}>Shree Ram Timber&Paints </Heading> */}
+     {/* <Heading p={4}>Shri Ram Timber&Paints </Heading> */}
         <VStack alignItems={'center'}  justifyContent={'center'} >
-            <Heading>ShreeRam Timbers</Heading>
+            <Heading>ShriRam Timbers</Heading>
             <Text textAlign={'center'} w={['100%','60%']}>📍 Habibpur near Suthyana Bus Stop, Greater Noida </Text>
         </VStack>
 

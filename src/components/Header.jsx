@@ -54,10 +54,10 @@ const Header = () => {
     >
       <Stack direction={['column','row']} p={'8'} spacing={4} >
         <Link to="/">
-          <Heading >🆃🅸🅼🅱🅴🆁</Heading>
+          <Heading fontSize={'lg'}>🅿🅻🆈🆆🅾🅾🅳&🅷🅰🆁🅳🆆🅰🆁🅴</Heading>
         </Link>
         <VStack spacing={-8}>
-          <Heading >Shree Ram Timber & Paints &trade;</Heading>
+          <Heading >Shri Ram Timber & Paints &trade;</Heading>
           <Text >
           📍 Habibpur near Suthyana Bus Stop, Greater Noida
           </Text>
@@ -103,7 +103,7 @@ const Header = () => {
         <DrawerContent fontSize={'24'} textColor={'white'} style={{backgroundColor:'rgba(0,0,0,0.6)'}} >
           <DrawerCloseButton fontSize={'24'} />
           <DrawerHeader>
-           <Heading textColor={'white'}>🆃🅸🅼🅱🅴🆁</Heading>
+           <Heading textColor={'white'} fontSize={'md'}>🅿🅻🆈🆆🅾🅾🅳&🅷🅰🆁🅳🆆🅰🆁🅴</Heading>
           </DrawerHeader>
 
           <DrawerBody>
