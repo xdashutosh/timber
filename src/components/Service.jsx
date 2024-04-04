@@ -6,7 +6,7 @@ import React, { useEffect, useState } from 'react'
 const ProductCard = ({img,title})=>{
   return(
     <Card  maxW='xs' borderBottom={'2px solid orange'}>
-    <CardBody p={16} brightness={'60%'} backgroundImage={img} >
+    <CardBody p={8} brightness={'60%'} backgroundImage={img} >
       <Stack mt='6' spacing='3' alignItems={'center'}>
        
       <Box
@@ -54,9 +54,9 @@ const Service = () => {
               }, [index]);
   return (
    <Stack direction={['column-reverse','row']} backgroundColor={'ButtonFace'} p={1} alignItems={'center'} my={12} mx={2}>
-     <VStack w={'full'} alignItems={'center'}>
+     <VStack w={'100%'} alignItems={['start','center']} overflowX={'scroll'} overflowY={'hidden'}  >
 
-     <Flex flexWrap={['nowrap','wrap']} justifyContent={['flex-start','center']} overflowX={'scroll'} overflowY={'hidden'} gap={2} >
+     <Flex flexWrap={['nowrap','wrap']} justifyContent={['flex-start','center']} gap={2} >
 
        
 
