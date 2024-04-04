@@ -6,7 +6,7 @@ const Brands = () => {
   return (
    <VStack spacing={4} padding={8}  width="100%">
     <Heading w={'full'} textAlign={'center'} padding={4} bgColor={'#fdba74'} rounded={'lg'} letterSpacing={'widest'}>Brands We Sell</Heading>
-    <HStack w={['90%','90%']} spacing={[4,8]} overflowX={'scroll'} overflowY={'hidden'}   flexWrap={'nowrap'} >
+    <HStack w={['100%','90%']} spacing={[4,8]} overflowX={'scroll'} overflowY={'hidden'}   flexWrap={'nowrap'} >
     <Image src={'https://uniquetimberplywood.com/wp-content/themes/UniqueTimber/assets/images/brands/centurylaminates.png'} height={[16,32]} width={[16,32]} objectFit={'contain'} shadow={'xl'} className='homegal'  rounded={'lg'}/>
     <Image src={'https://uniquetimberplywood.com/wp-content/themes/UniqueTimber/assets/images/brands/centuryply.png'} height={[16,32]} width={[16,32]} objectFit={'contain'} shadow={'xl'} className='homegal' rounded={'lg'}/>
     <Image src={'https://uniquetimberplywood.com/wp-content/themes/UniqueTimber/assets/images/brands/greenlam.png'} height={[16,32]} width={[16,32]} objectFit={'contain'} shadow={'xl'} className='homegal'  rounded={'lg'}/>
